@@ -1,0 +1,20 @@
+---computer
+randomize integer N
+user input x
+Compare
+When x<N  "x too low" 
+    user input x
+When x>N "x too high"
+    user input x
+When x=N "Correct Guess"
+============================
+------user
+Enter x
+While x < N until either x=N or x>N
+    input higher x
+    When x=N "Correct"
+While x > N until either x=N or x<N
+    input lower x
+    When x=N "Correct"
+When x=N "Correct"
+
