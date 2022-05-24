@@ -15,6 +15,17 @@ If  x/mz = 0.n MM= 0
     else WW= integer of WW
 
 SS float of M
+==============================
+Variables: hh=2, ff=1, zt=1, tt=1
+Enter Integer x
+If x/100 is float with leading 0 no hh needed
+If x/100= int without float  >   hh  "Not enough 100 EUR notes at the moment"
+If x/100 float without leading 0
+    x/10 
+--- after hundreds are calculated---
+if x/10 is float "Only 10, 20, 50 and 100 notes available"
+
+
 
 
 
