@@ -1,0 +1,20 @@
+Enter Integer x
+constants: wz= 604800; dz=86400; hz=3600, mz=60, ss= float of mm
+
+If  x/wz = 0.n WW= 0
+    else WW= integer of WW
+x now is x- WW * wz
+If  x/dz = 0.n DD= 0
+    else WW= integer of DD
+x now is x- WW * dz
+If  x/hz = 0.n HH= 0
+    else HH= integer of HH
+x now is x- HH * z
+If  x/mz = 0.n MM= 0
+    SS float of MM
+    else WW= integer of WW
+
+SS float of M
+
+
+
