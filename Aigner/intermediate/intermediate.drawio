@@ -199,10 +199,68 @@
         </mxGraphModel>
     </diagram>
     <diagram id="rctynnmIuZ4mjQUYRJJB" name="ATM">
-        <mxGraphModel dx="698" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="910" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="Y4FzNGcwBTNkPWfofaAR-0"/>
                 <mxCell id="Y4FzNGcwBTNkPWfofaAR-1" parent="Y4FzNGcwBTNkPWfofaAR-0"/>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-20" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;width=68;endSize=11.72;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Y4FzNGcwBTNkPWfofaAR-1" source="Y4FzNGcwBTNkPWfofaAR-6" target="Y4FzNGcwBTNkPWfofaAR-19">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="370" y="430" as="sourcePoint"/>
+                        <mxPoint x="420" y="380" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-21" value="hh=0| ff&amp;amp;zt&amp;amp;tt=0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y4FzNGcwBTNkPWfofaAR-20">
+                    <mxGeometry x="0.0501" y="18" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-4" value="10x1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Y4FzNGcwBTNkPWfofaAR-1">
+                    <mxGeometry x="272.5" y="680" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-5" value="20x1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Y4FzNGcwBTNkPWfofaAR-1">
+                    <mxGeometry x="260" y="645" width="85" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-7" value="50x1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Y4FzNGcwBTNkPWfofaAR-1">
+                    <mxGeometry x="255" y="580" width="95" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-9" style="edgeStyle=none;html=1;exitX=0.13;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Y4FzNGcwBTNkPWfofaAR-1" source="Y4FzNGcwBTNkPWfofaAR-2" target="Y4FzNGcwBTNkPWfofaAR-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-15" style="edgeStyle=none;html=1;exitX=0.4;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Y4FzNGcwBTNkPWfofaAR-1" source="Y4FzNGcwBTNkPWfofaAR-2" target="Y4FzNGcwBTNkPWfofaAR-14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-2" value="Calculations if entered integer is available&lt;br&gt;x/100 float with leading 0 no 100 needed&lt;br&gt;x/100 float without leading 0(y) y 100 needed&lt;br&gt;x/10 is 4 or 9 no note available(extra first check stock)&lt;br&gt;x/10 1,3,6,8 one 10 is needed&lt;br&gt;x/10 is 2,3,7,8&amp;nbsp; one 20 is needed&lt;br&gt;x/10 is 5 one 50 is needed&lt;br&gt;&lt;br&gt;subtract needed notes from stock&lt;br&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="Y4FzNGcwBTNkPWfofaAR-1">
+                    <mxGeometry x="230" y="150" width="530" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-8" style="edgeStyle=none;html=1;exitX=0.855;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Y4FzNGcwBTNkPWfofaAR-1" source="Y4FzNGcwBTNkPWfofaAR-6" target="Y4FzNGcwBTNkPWfofaAR-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-6" value="100x2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Y4FzNGcwBTNkPWfofaAR-1">
+                    <mxGeometry x="237.5" y="550" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-12" value="check if notes needed in stock&lt;br&gt;take needed notes&lt;br&gt;decrease stock of used notes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Y4FzNGcwBTNkPWfofaAR-1">
+                    <mxGeometry x="60" y="480" width="222.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-16" style="edgeStyle=none;html=1;entryX=0.25;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Y4FzNGcwBTNkPWfofaAR-1" source="Y4FzNGcwBTNkPWfofaAR-14" target="Y4FzNGcwBTNkPWfofaAR-2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="110" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-14" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="Y4FzNGcwBTNkPWfofaAR-1">
+                    <mxGeometry x="283" y="50" width="57" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-17" value="input amount" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Y4FzNGcwBTNkPWfofaAR-1">
+                    <mxGeometry x="280" y="200" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-18" value="fitting prompt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Y4FzNGcwBTNkPWfofaAR-1">
+                    <mxGeometry x="370" y="120" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="Y4FzNGcwBTNkPWfofaAR-19" value="refill call&lt;br&gt;" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="Y4FzNGcwBTNkPWfofaAR-1">
+                    <mxGeometry x="520" y="610" width="60" height="80" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>

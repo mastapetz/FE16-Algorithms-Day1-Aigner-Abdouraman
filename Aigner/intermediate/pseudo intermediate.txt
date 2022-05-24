@@ -17,14 +17,33 @@ If  x/mz = 0.n MM= 0
 SS float of M
 ==============================
 Variables: hh=2, ff=1, zt=1, tt=1
+======all computed saved and calculated before handing out===
 Enter Integer x
 If x/100 is float with leading 0 no hh needed
 If x/100= int without float  >   hh  "Not enough 100 EUR notes at the moment"
+If x/100= 1 "100€ computed" hh=hh-1
+If x/100= 2 "200€ computed" hh=hh-2
 If x/100 float without leading 0
-    x/10 
+     x/10 
+
 --- after hundreds are calculated---
 if x/10 is float "Only 10, 20, 50 and 100 notes available"
-
+if x/10 > 8 "Not enough fitting notes available"
+if x/10 = 2 "20 € computed" zt-1
+if x/10 = 5 "50 € computed" ff-1
+if x/10 = 1 "10 € computed" tt-1
+if x/10 = 6 "60 € computed" tt-1 ff-1
+if x/10 = 7 "70 € computed" zt-1 ff-1
+if x/10 = 3 "30 € computed" zt-1 tt-1
+if x/10 = 8 "80 € computed" zt-1 tt-1 ff-1
+======
+if calculated does go over stock
+  "Your xxx€"  substract fitting number from Variables
+===
+general if x/N is higher than variable and not replaceable "Error not enough notes"
+===
+if hh = 0 or if ff and zt and tt = 0 
+    refill call
 
 
 
